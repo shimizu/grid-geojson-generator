@@ -4,8 +4,8 @@
 ## インストール
 
 ```
-> git clone 
-> cd forest_mapper_viz
+> git clone git@github.com:shimizu/grid-geojson-generator.git
+> cd grid-geojson-generator
 > npm install
 ```
 
@@ -28,4 +28,4 @@ echo MAPBOX_ACCESS_TOKEN="Mapboxのトークンを記載" > .env
 ```
 
 
-.
+
