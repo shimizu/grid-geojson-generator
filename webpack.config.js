@@ -6,6 +6,9 @@ const CopyPlugin = require('copy-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 
 module.exports = {
+    optimization: {
+        minimize: true
+    },
     performance: {
         maxEntrypointSize: 1500000,
         maxAssetSize: 1500000,

@@ -2,7 +2,6 @@ import React, { memo } from 'react';
 
 
 //カード類
-import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 
 //タイポブラフィ

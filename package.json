@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "prebuild": "rimraf build",
-    "build": "webpack --progress --mode production"
+    "build": "webpack --progress --mode production",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -44,6 +45,7 @@
     "@babel/preset-react": "^7.14.5",
     "babel-loader": "^8.2.2",
     "copy-webpack-plugin": "^9.0.1",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.3.2",
     "rimraf": "^3.0.2",
     "webpack": "^5.58.1",
