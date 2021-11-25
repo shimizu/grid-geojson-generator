@@ -1,4 +1,4 @@
-# Forest Mapper Viz
+# Grid GeoJSON Generator
 
 
 ## インストール
